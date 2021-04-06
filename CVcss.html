@@ -11,7 +11,14 @@
 
     #info{
       font-family: 'Brush Script MT';
-      font-size: 10xp;
+      font-size: 30px;
+    }
+    #lan{
+       font-family: 'Courier New';
+    }
+    .image{
+      border-radius: 60%;
+      opacity: 0.5;
     }
 
     </style>
@@ -20,34 +27,100 @@
   <body>
   <h1><U>Informations personnelles:</U></h1>
   <div id="info">
-  <p> <img src="whatever.jpg" alt="my image"> </p>
-  <p>
+  <p> <img class="image" src="whatever.jpg" alt="my image"> </p>
+  <p id="para1">
     <ul>
     <li><strong>Nom:</strong>Omaima Charroud</li>
-    <li><strong>Adresse:</strong>Driouch</li>
+    <li><strong>Adresse:</strong>XXXX</li>
     <li><strong>Date de naissance:</strong>11/01/1999</li>
     <li><strong>Téléphone:</strong>0634567898</li>
     <li><strong>Email:</strong>Oma7799@gmail.com</li>
     </ul>
-  </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+ </p>
   </div>
-  <h1><U>Education:</U></h1>
-  <div id="education">
-  <p>Je suis une étudiante en 1ère année du cycle ingénieur filière génie informatique de <a href="https://ensah.ma/">l'ENSA d'Al Hoceima</a>.
-    J'ai obtenu mon diplôme du baccalauréat science physique en 2018 avec mention "trés bien".
+  <hr>
+  <h1><U>Formations</U></h1>
+  <div id="forma">
+
+  </div>
+  <table style="width:100%">
+    <tr>
+      <td><strong>période</strong></td>
+      <td><strong>formation</strong></td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>obtention du baccalauréat</td>
+    </tr>
+    <tr>
+      <td>2019-2021</td>
+      <td>étude à <a href="https://ensah.ma/">l'ENSAH</a></td>
+    </tr>
+  </table>
+  <hr>
   </div>
   <h1><U>Compétences:</U></h1>
+  <div id="Compét">
   <p>
     <ul>
-    <li>Ouverture d'esprit et curiosité</li>
-    <li>programmation C</li>
-    <li>HTML et CSS</li>
-    <li>Microsoft Office (PowerPoint, Word, Excel et Outlook), iWork, Réseaux sociaux, Adobe Photoshop</li>
+    <li>Machine learning and natural language processing</li>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+      <li>Sed non risus. Suspendisse lectus tortor</li>
+      <li> dignissim sit amet, adipiscing nec</li>
+    </ul>
+    <li>Sftware engineering skills</li>
+    <ul>
+      <li> ultricies sed, dolor</li>
+      <ul>
+        <li>varius a, semper congue</li>
+        <li>euismod non, mi. Proin porttitor</li>
+        <li>orci nec nonummy molestie</li>
+        <li>enim est eleifend mi, non fermentum diam nisl sit amet erat</li>
+        <li>Duis semper. Duis arcu massa</li>
+        <li>scelerisque vitae, consequat in</li>
+      </ul>
+      <li>Cras elementum ultrices diam</li>
+      <li>Maecenas ligula massa</li>
+      <ul>
+        <li>pretium a, enim. Pellentesque congue</li>
+        <li>Ut in risus volutpat libero pharetra tempor</li>
+        <li>Cras vestibulum bibendum augue</li>
+      </ul>
+    </ul>
     </ul>
   </p>
+</div>
+<hr>
+<h1><U>Expériences</U></h1>
+<table style="width:100%">
+  <tr>
+    <td><strong>période</strong></td>
+    <td><strong>expérience</strong></td>
+  </tr>
+  <tr>
+    <td>2019</td>
+    <td>Stage au sein de la société xxx à Casablanca</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>stage au sein de yyy à Tétouan</a></td>
+  </tr>
+</table>
+<hr>
   <h1><U>Centre d’intérêt:</U></h1>
-  Mode, voyages, dessin,musique classique.
-  <h1><U>Languages</U></h1>
+  <div id="CI">
+    <ul>
+      <li>Mode</li>
+      <li>voyages</li>
+      <li>dessin</li>
+      <li>musique classique</li>
+    </ul>
+</div>
+<hr>
+  <h1><U>Languages:</U></h1>
+  <div id="lan">
   <p>
       <ul>
         <li>Arabe</li>
@@ -57,7 +130,10 @@
 
         </ul>
   </p>
+</div>
+<hr>
   <h1><U>Contact me:</U></h1>
+  <div id="contact">
   <form>
    <table>
      <tr>
@@ -76,6 +152,9 @@
 
 
   </form>
+</div>
   </body>
-
+  <footer>
+  <p><center>dernière mise à jour: 06/04/2021</center></p>
+  </footer>
 </html>
