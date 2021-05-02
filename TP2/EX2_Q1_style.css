@@ -22,7 +22,7 @@ body {
 }
 
 #header {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #558ed5;
   position: absolute;
   width: 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 #section0 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #c4bd97;
   width: 100%;
   margin-left: 0;
@@ -43,7 +43,7 @@ body {
 }
 
 #section1 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #c6d9f1;
   width: 22%;
   height: 18%;
@@ -53,7 +53,7 @@ body {
 }
 
 #section2 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #e4b7b7;
   width: 22%;
   height: 18%;
@@ -64,7 +64,7 @@ body {
 }
 
 #section3 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #c3d69b;
   width: 22%;
   height: 18%;
@@ -75,7 +75,7 @@ body {
 }
 
 #section4 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #fac090;
   width: 22%;
   height: 18%;
@@ -85,7 +85,7 @@ body {
 }
 
 #section5 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #00b0f0;
   width: 48%;
   height: 18%;
@@ -94,7 +94,7 @@ body {
 }
 
 #section6 {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #00b0f0;
   position: absolute;
   width: 48%;
@@ -104,7 +104,7 @@ body {
 }
 
 #footer {
-  border: 5px solid #385D8A;
+  border: 3px solid #385D8A;
   background-color: #b3a2c7;
   position: absolute;
   width: 100%;

@@ -115,7 +115,7 @@ body {
 /*s’affiche sur les téléphones
 mobiles sous forme d’une pile qui commence par la zone « en-tête » suivie des sections de 0 à
 6 (dans l’ordre des chiffres) puis la zone « pied de page »*/
-@media (max-width: 500px) {
+@media (max-width: 50%) {
   #footer, #header, #section0 {
     width: 100%;
     display: block;

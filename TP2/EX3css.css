@@ -1,0 +1,17 @@
+#div1{
+  float: left;
+}
+#div2{
+text-align: center;
+}
+.button{
+  background-color: #2978b5;
+  padding: 10px 24px;
+}
+
+input{
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
