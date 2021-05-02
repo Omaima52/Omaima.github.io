@@ -1,5 +1,6 @@
 .container{
   position: relative;
+  margin-top: 100px;
 }
 #header,#section0,#section1,#section2,#section3,#section4,#section5,#section6,#footer{
   color: white;
