@@ -1,0 +1,183 @@
+html, body {
+  height: 110%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#bdc7c9;
+font-family: sans-serif;
+}
+
+
+#Parent{
+  background-color: #bdc7c9;
+  width: 100%;
+  height: 110%;
+
+}
+#Child1{
+
+
+  background-color: white;
+  width: 65%;
+  height: 40%;
+  margin-left: 2%;
+  position: relative;
+  top: 4%;
+}
+#Child2{
+  background-color: white;
+  width: 29%;
+  height: 40%;
+  position: relative;
+  left: 70%;
+  bottom: 38.5%;
+}
+#Child3{
+  background-color: #bdc7c9;
+  height: 60%;
+  width: 97%;
+  position: relative;
+  bottom: 38%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+#sec1{
+background-color: white;
+width: 67%;
+height: 45%;
+
+
+}
+#aside1{
+background-color: white;
+width: 30%;
+height: 99%;
+margin-bottom:60%;
+position:absolute;
+right: 0%;
+top:0%;
+}
+#sec2{
+background-color: #bdc7c9;
+width: 67%;
+height: 53%;
+position: relative;
+
+bottom: 0%;
+}
+#img1{
+  margin-top: 0.5%;
+  margin-left:1%;
+}
+#arti{
+  padding-left: 2%;
+  padding-top: 3%;
+}
+#para1{
+  padding-left: 2%;
+  padding-right: 3%;
+}
+
+input{
+
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+
+
+  box-sizing: border-box;}
+
+/*.input-block input {
+	display: block;
+	width: 80%;
+  height: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #3b4465;
+  background: white;
+  border: 1px solid #cddbef;
+  border-radius: 2px;
+}*/
+footer{
+
+  padding-top: 5%;
+}
+#buttonn{
+
+  background-color: #344fa1;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+
+  margin: 3px 2px;
+  cursor: pointer;
+}
+#ACTUALITÉS{
+  padding-left: 3%;
+}
+.ESPACE{
+  background-color: white;
+  width: 48%;
+  height: 90%;
+position: relative;
+top: 5%;
+}
+.EVENEMENTS{
+  background-color: white;
+  width: 48%;
+  position: relative;
+  left: 52%;
+  margin-top: -29.5%;
+  height: 90%;
+
+}
+.Act1{
+  background-color: white;
+  height: 16%;
+  position: relative;
+}
+.Act2{
+  background-color:white;
+  height: 16%;
+  position: relative;
+}
+.Act3{
+  background-color: white;
+  height: 16%;
+  position: relative;
+}
+.Act4{
+  background-color: white;
+  position: relative;
+
+  height: 16%;
+}
+#line1,#line2,#line3,#line4{
+ border-top: 1px dashed black;
+}
+.printemps,.candidature,.felicitation,.nouvelleannee{
+  padding-left: 22%;
+}
+.date1,.date2,.date3,.date4{
+  padding-left: 22%;
+}
+.image1,.image2,.image3,.image4{
+  width: 20%;
+}
+#pFin{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  text-align: right;
+  font-size: 15px;
+}
+#connecter{
+  background-color: #0e49b5;
+  color: white;
+
+
+  width: 30%;
+  margin-left: 3%;
+
+}
